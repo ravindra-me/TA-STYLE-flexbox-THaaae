@@ -1,0 +1,159 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* custom style */
+* , *::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 16px 0;
+    color: white;
+    background-color: rgb(18, 13, 51);
+}
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 130px;
+}
+.bell-icon{
+    margin-right: 45px;
+}
+.user p{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500; 
+}
+/* artical */
+.section{
+    padding: 60px 0;
+}
+aside{
+    background-color: rgb(121, 181, 201);
+    flex-direction: column;
+    width: 30%;
+    border-radius: 16px;
+}
+.aside .flex{
+    align-items: flex-start;
+}
+.aside-1{
+    width: 100%;
+}
+.section .container{
+    align-items: flex-start;
+    align-items: stretch;
+}
+.col-1-1{
+    width: 90%;
+    margin:  15px auto;
+    padding: 15px 0;
+    padding-left: 30px;
+    border-radius: 8px;
+    justify-content: start;
+}
+.col-1-1 p{
+    margin-left: 20px;
+}
+.log-out{
+    background-color: #fff;
+}
+.artical-col{
+    color: red;
+    border: 3px solid red;
+}
+/* second col */
+article{
+    width: 65%;
+    border-radius: 12px;
+    background-color: rgb(204, 233, 243);
+    padding: 20px;
+}
+.artical img{
+    width: 100%;
+}
+article h1{
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.artical p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.read-more{
+    padding: 20px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb(110, 161, 32);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+footer{
+    padding: 30px 0;
+    color: white;
+    background-color:rgb(18, 13, 51);
+}
+footer a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-footer a{
+    font-size: 25px;
+    margin-left: 20px;
+}
