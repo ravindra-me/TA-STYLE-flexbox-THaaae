@@ -1,8 +1,77 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2 | Flex Box</title>
+        <script src="https://kit.fontawesome.com/379acff5c7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container flex">
+                <a href="#" class="logo"><img src="https://miro.medium.com/max/700/1*G0vNhGnL4kWlZm2CTmLLtg.png" alt="logo"></a>
+                <nav class="nav flex">
+                    <a href="#" class="bell-icon"><img src="./assets/icons/bell.svg" alt="bell icon"></a>
+                    <div class="user flex">
+                        <p>Sarah Jone</p>
+                        <a href="#"><img src="./assets/icons/user.svg" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <div class="container flex">
+                    <aside class="aside flex">
+                        <div class="aside-1">
+                            <div class="col-1-1 flex">
+                                <img src="./assets/icons/dashboard.svg" alt="">
+                                <p>Dashboard</p>
+                            </div>
+                            <div class="col-1-1 artical-col flex">
+                                <img src="./assets/icons/article.svg" alt="">
+                                <p>Articles</p>
+                            </div>
+                            <div class="col-1-1 flex">
+                                <img src="./assets/icons/analytics.svg" alt="">
+                                <p>Analytics</p>
+                            </div>
+                            <div class="col-1-1 flex">
+                                <img src="./assets/icons/inbox.svg" alt="">
+                                <p>Inbox</p>
+                            </div>
+                            <div class="col-1-1 flex">
+                                <img src="./assets/icons/setting.svg" alt="">
+                                <p>Sattings</p>
+                            </div>
+                        </div>
+                        <div class="aside-1">
+                            <div class="col-1-1 flex log-out">
+                                <img src="./assets/icons/log-out.svg" alt="">
+                                <p>Log Out</p>
+                            </div>
+                        </div>                      
+                    </aside>
+                    <article class="artical">
+                        <img src="./assets/01.png" alt="artical pic">
+                        <h1>Why we are doing AltCampus.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, ipsum numquam deserunt nostrum quis suscipit voluptate possimus, nisi natus quas recusandae! Id numquam distinctio delectus ab voluptates? Quidem alias magnam explicabo. Nulla asperiores corporis delectus, a voluptate fuga inventore quas possimus corrupti. Impedit, similique aspernatur delectus obcaecati officia voluptates laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quae veritatis recusandae dolore maiores accusantium laborum? Vero alias quasi iste asperiores perspiciatis soluta quam corrupti optio ab hic molestias rerum qui, sit quaerat harum laudantium dolore veniam dicta eum? Impedit minima, similique id quam quidem provident natus porro fugiat corrupti inventore necessitatibus, exercitationem tenetur architecto? Repellat sed commodi a vero.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container flex">
+                <a href="#">&copy;  <small>AltCampus</small></a>
+                <nav class="nav-footer">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
