@@ -87,6 +87,7 @@ nav a img{
     padding: 32px;
     flex:0 1 30%;
     align-self: stretch;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,6 +109,9 @@ nav a img{
 .sidebar-nav a img{
     vertical-align: middle;
     margin-right: 12px;
+}
+.sidebar-nav span{
+    vertical-align: middle;
 }
 .sidebar-nav .active{
     border: 2px solid orange;
@@ -134,7 +138,7 @@ nav a img{
     flex:0 1 65%;
     background-color: #dbe6f0;
     padding: 32px;
-    border-radius: 12pxs;
+    border-radius: 12px;
 }
 .artical img{
     width: 100%;
